@@ -41,7 +41,7 @@
 				}
 			}
 		}
-		
+		/* Simple input filter */
 		public function filter($input, $size = NULL){
 			if($input === NULL || is_array($input) === TRUE) return "";
 			$input = strip_tags($input);
